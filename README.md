@@ -10,14 +10,9 @@ A real-time finger counting and labeling system using **MediaPipe** and **OpenCV
 This project uses **MediaPipe** and **OpenCV** to detect a hand in real-time using a webcam and count the number of fingers raised. Each finger is individually labeled (e.g., **Thumb**, **Index**, etc.), and the total number of fingers is displayed on the screen.
 
 ---
+ 
 
-## 📷 Demo
-
-> *(Optional)* Add a `.gif` or screenshot showing the project in action.
-
----
-
-## 🧰 Requirements
+##  Requirements
 
 Install the required Python packages using:
 
@@ -68,7 +63,7 @@ Press **`q`** to quit the webcam window.
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 - **MediaPipe Hands** detects 21 landmarks per hand in real-time.
 - **Finger Landmarks Used**:
@@ -82,23 +77,21 @@ Press **`q`** to quit the webcam window.
 
 ---
 
-## ✋ Features
+##  Features
 
-✅ Real-time hand and finger detection  
-✅ Finger labeling (Thumb, Index, etc.)  
-✅ Total fingers displayed  
-✅ Supports multiple hands  
-✅ Works with both **left** and **right** hands
+ Real-time hand and finger detection  
+  Finger labeling (Thumb, Index, etc.)  
+ Total fingers displayed  
+ Supports multiple hands  
+ Works with both **left** and **right** hands
 
 ---
 
-## 📦 Optional Enhancements
-
-🔊 Add sound effects or voice feedback for gestures  
-📈 Log finger counts over time  
-🎮 Integrate with gesture-controlled media players  
-🧩 Add GUI for toggling features  
-📦 Convert it into an executable using PyInstaller
+##  Optional Enhancements
+  
+ Log finger counts over time  
+  Integrate with gesture-controlled media players  
+ 
 
 ---
 
